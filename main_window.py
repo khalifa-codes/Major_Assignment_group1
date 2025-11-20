@@ -1,1 +1,0 @@
-#implementation of main window of our GUI
