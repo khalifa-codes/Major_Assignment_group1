@@ -14,13 +14,10 @@ This package contains all CPU scheduling algorithm implementations:
 from .FCFS import fcfs
 from .SJF import sjf
 from .RR import round_robin
-from .PS import priority_scheduling
-from .SRTF import srtf
+
 
 __all__ = [
     "fcfs",
     "sjf",
     "round_robin",
-    "priority_scheduling",
-    "srtf"
 ]
