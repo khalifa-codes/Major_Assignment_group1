@@ -57,7 +57,7 @@ def fcfs(processes: List[Dict]) -> Tuple[List[Dict], List[Tuple[str, int, int]]]
 
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     # Input Requirements: Number of processes, Process ID, Arrival Time, Burst Time
     sample_processes = [#sample input for testing 
         {"pid": "P1", "arrival": 0, "burst": 5},
