@@ -137,3 +137,4 @@ if __name__ == "__main__":
         print("-" * 90)
     
     print("\n" + "="*90 + "\n")
+    main()
