@@ -88,7 +88,7 @@ def print_gantt_chart(
 # -----------------------
 # Example usage (CLI test)
 # -----------------------
-if _name_ == "_main_":
+if __name__ == "__main__":
     sample_chart = [
         ("P1", 0, 5),
         ("P2", 5, 8),

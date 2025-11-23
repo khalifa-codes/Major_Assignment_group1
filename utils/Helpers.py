@@ -23,7 +23,7 @@ def sort_processes_by_burst(processes: List[Dict]) -> List[Dict]:
 
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     sample_processes = [
         {"pid": "P1", "arrival": 0, "burst": 5, "waiting": 0, "turnaround": 5},
         {"pid": "P2", "arrival": 2, "burst": 3, "waiting": 3, "turnaround": 6},

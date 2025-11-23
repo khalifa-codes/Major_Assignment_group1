@@ -57,7 +57,7 @@ def sjf(processes: List[Dict]) -> Tuple[List[Dict], List[Tuple[str, int, int]]]:
 
     return completed, gantt_chart
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     sample_processes = [
         {"pid": "P1", "arrival": 0, "burst": 6},
         {"pid": "P2", "arrival": 1, "burst": 8},
