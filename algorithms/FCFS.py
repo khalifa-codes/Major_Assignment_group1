@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 from typing import List, Dict, Tuple
 
 def fcfs(processes: List[Dict]) -> Tuple[List[Dict], List[Tuple[str, int, int]]]:
@@ -139,4 +137,5 @@ if __name__ == "__main__":
         print("-" * 90)
     
     print("\n" + "="*90 + "\n")
->>>>>>> 057791309a6d3732f3fd35c2d60e73cbd635ee64
+
+    main()
