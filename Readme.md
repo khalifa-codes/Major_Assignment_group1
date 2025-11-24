@@ -56,10 +56,11 @@ Each algorithm provides:
 - Detailed metrics table
 - Timeline visualization
 
-![FCFS Algorithm](screenshots/fcfs_simulation.png)
-![SJF Algorithm](screenshots/sjf_simulation.png)
-![Round Robin](screenshots/round_robin.png)
-![Deadlock Prevention](screenshots/deadlock_prevention.png)
+![FCFS Algorithm](screenshots/FCFS2.0.png)
+![SJF Algorithm](screenshots/SJF2.0.png)
+![Round Robin](screenshots/RR2.0.png)
+![Round Robin](screenshots/CA1.png)
+![Deadlock Prevention](screenshots/DL2.0.png)
 
 ## 🔢 Algorithms Implemented
 
