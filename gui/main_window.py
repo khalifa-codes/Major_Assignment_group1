@@ -12,7 +12,7 @@ from .scheduler_ui import SchedulerUI, DeadlockUI
 class MainWindow:
     """Main menu window with algorithm selection buttons."""
     
-    def _init_(self, root):
+    def __init__(self, root):
         self.root = root
         self.root.title("CPU Scheduling Simulator")
         self.root.geometry("900x700")
@@ -170,7 +170,7 @@ class MainWindow:
             widget.destroy()
         
         # Recreate main window
-        self._init_(self.root)
+        self.__init__(self.root)
 
 
 def main():
@@ -180,5 +180,5 @@ def main():
     root.mainloop()
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
